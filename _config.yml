@@ -1,0 +1,46 @@
+# Basic
+title: 云行雨步
+subtitle: 技术什么的不重要了
+welcome_message: <a href="https://www.cnblogs.com/yunxingyubu/" target="_blank">我的博客</a>
+description: 完美的只不过是表面 内在的 透露出的是朴实和凝重 
+creator: <a href="https://www.cnblogs.com/yunxingyubu/">源</a>
+
+url: "https://messliyan.github.io/"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 日记
+    description: 日记内容
+
+# Navigation buttons in the front page.
+nav:
+    - {title: 当下, description: 当下的力量, url: 'https://www.ximalaya.com/search/%E5%BD%93%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    github: 云行雨步
+   
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
